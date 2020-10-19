@@ -328,6 +328,7 @@ header {
 .portfolio .all-works .works {
   overflow: hidden;
   display: flex;
+  justify-content: center;
 }
 .portfolio .all-works .works a:hover .works-exp {
   background-color: #3b3b3b;
