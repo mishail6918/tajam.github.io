@@ -1,0 +1,17 @@
+.slider-item {
+  text-align: center;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-center img {
+  width: 90px;
+  height: 90px;
+}
