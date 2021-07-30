@@ -1,0 +1,126 @@
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen  and (max-width: 768px) {
+    header .nav .menu {
+        display: none;
+    }
+    header .nav .burger-open {
+        display: block;
+    }
+    .people-say .review-text {
+        width: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    header .nav {
+        padding: 0px 20px;
+    }
+    .greet {
+        padding-top: 50px;
+    }
+    .our-story {
+        padding: 0px 10px;
+        margin-top: 20px;
+    }
+    .our-story .button {
+        text-align: center;
+    }
+    .about .text {
+        width: 100%;
+        text-align: justify;
+    }
+    .text-title {
+        text-align: center;
+    }
+    .expertise .exp .exp-list {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .expertise .exp .exp-list .exp-item{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .our-team .team .members-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio .works-title {
+        flex-direction: column;
+    }
+    .portfolio .all-works .works {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio .all-works .works a {
+        margin-bottom: 10px;
+    }
+    .portfolio .all-works .works .works-exp {
+        border: none;
+    }
+    .feedback {
+        padding: 50px 10px 40px 10px;
+    }
+    .feedback .feedback-form-clients {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback .feedback-form-clients .form-block .form .sub-button {
+        display: flex;
+        justify-content: center;
+    }
+    .feedback .feedback-form-clients .form-block {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .feedback .feedback-form-clients .feed-title {
+        text-align: center;
+    }
+    .slick-next {
+        right: 25px;
+    }
+    .slick-prev {
+        left: 25px;
+    }
+    footer .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer .right-footer {
+        width: 100%;
+        text-align: center;
+    }
+    footer .footer-down {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-down .footer-links {
+        margin-bottom: 10px;
+    }
+    footer .footer .left-footer {
+        width: 100%;
+    }
+    footer .footer .left-footer .footer-logo  {
+        justify-content: center;
+    }
+    footer .footer .left-footer .footer-text {
+        width: 100%;
+        padding: 20px 10px 0px 10px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 375px) {
+    .people-say .review-text p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .feedback .feedback-form-clients .clients .clients-logos {
+        width: 300px;
+    }
+    footer .footer {
+        padding: 20px 10px 60px 10px;
+    }
+}

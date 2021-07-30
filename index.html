@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
@@ -18,6 +19,19 @@
                     <img src="img/logo-t.png" alt="Tajam">
                 </div>
                 <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">EXPERTISE</a></li>
+                        <li><a href="#">TEAMS</a></li>
+                        <li><a href="#">WORKS</a></li>
+                        <li><a href="#">PEOPLE SAY</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="burger-open"><img src="img/burger-left.svg" alt=""></div>
+                <div class="mobile-menu">
+                    <div class="close-btn"><img src="img/close-black.svg" alt=""></div>
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
@@ -58,9 +72,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="video">
-        
     </section>
     <section>
         <div class="container">
@@ -258,13 +269,13 @@
                     </div>
                     <div class="form">
                         <form action="#">
-                            <input name="name" size="50" type="text" placeholder="Name" required>
+                            <input name="name" type="text" placeholder="Name" required class="form-input">
                             <br>
-                            <input name="email" size="50" type="text" placeholder="Email" required>
+                            <input name="email" type="text" placeholder="Email" required class="form-input">
                             <br>
-                            <input name="subject" size="50" type="text" placeholder="Subject" required>
+                            <input name="subject" type="text" placeholder="Subject" required class="form-input">
                             <br>
-                            <textarea name="message" id="" cols="50" rows="8" placeholder="Your Message" required></textarea>
+                            <textarea name="message" id="" rows="8" placeholder="Your Message" required class="form-input"></textarea>
                             <br>
                             <input type="submit" value="SUBMIT" class="sub-button">
                         </form>
